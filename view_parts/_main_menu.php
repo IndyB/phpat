@@ -1,7 +1,18 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: indatou
- * Date: 2015-12-17
- * Time: 12:25 PM
- */
+$menu_data = array(
+    'Accueil' => 'index.php',
+    'Contact' => 'contact.php',
+    'Inscription' => 'contact.php',
+    'Dashboard' => 'dashboard.php',
+);
+
+
+?>
+<ul>
+    <?php
+    foreach($menu_data as $key => $value)
+    {
+    echo '<li><a href="'.$value.'">'.$key.'</a></li>' ;
+    }
+    ?>
+</ul>
