@@ -6,4 +6,5 @@
 
 </head>
 <body>
+<div id="wrapper"><!-- la div fermante se trouve ds _page_bottom-->
 <?php require_once '_header.php'?>
