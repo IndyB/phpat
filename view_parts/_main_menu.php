@@ -2,7 +2,7 @@
 $menu_data = array(
     'Accueil' => 'index.php',
     'Contact' => 'contact.php',
-    'Inscription' => 'contact.php',
+    'Inscription' => 'inscription.php',
     'Dashboard' => 'dashboard.php',
 );
 
