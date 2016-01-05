@@ -12,7 +12,7 @@ echo '<ul>';
 
     foreach($menu_data as $key => $value)
     {
-    echo '<li><a href="'.$value.'">'.$key.'</a></li>' ;
+    echo '<li class="menu"><a href="'.$value.'">'.$key.'</a></li>' ;
     }
 
 echo '</ul>';
