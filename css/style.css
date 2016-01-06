@@ -37,3 +37,15 @@
     margin-left: 10px;
     margin-right: 32px;
 }
+ /*form[name="inscription"].error{
+     background-color: coral;
+     }
+ */
+.error{
+    background-color: coral;
+}
+.msg_erreur{
+    position: absolute;
+    left: 35%;
+
+}
